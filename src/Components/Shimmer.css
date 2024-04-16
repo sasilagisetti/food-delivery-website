@@ -1,0 +1,17 @@
+.shimmer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px 60px;
+    gap: 2rem;
+}
+.shimmer-card{
+    background-color: rgb(209, 209, 209);
+    height: 450px;
+    width: 100%;
+    border-radius: 20px;
+}
+.search-box,.search-btn{
+    padding:4px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}

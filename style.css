@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poltawski Nowy", serif;
+    font-weight: 400;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    box-shadow: 1px 1px 20px rgb(65, 156, 153); 
+}
+.nav .nav-logo{
+    width: 60px;
+    mix-blend-mode: darken;
+}
+.nav-links> ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+.nav-links>ul>li{
+    list-style: none;
+    cursor: pointer;
+}
+.nav-btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+    row-gap: 2rem;
+}
+.filter-btn{
+    padding: 12px 25px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.search{
+    display: block;
+    flex: 1;
+    width: 100%;
+}
+.res-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 10px 60px;
+}
+.res-card{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 1rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.res-card img{
+    width: 100%;
+    height: 45vh;
+    transition: .5s ease;
+}
+.res-card:hover .res-card-logo{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.res-card-text{
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.res-card-text>h2:hover{
+    /* border-bottom: 1px solid black; */
+    text-decoration: underline;
+
+}
+.body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-user{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    column-gap: 1.2rem;
+}
+.user-crad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(129, 129, 129, 0.41);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
