@@ -1,0 +1,2 @@
+var e=globalThis.parcelRequirea524;(0,e.register)("4skUn",function(r,i){Object.defineProperty(r.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(r.exports,"default",{get:()=>n,set:void 0,enumerable:!0,configurable:!0});var o=e("ayMG0"),n=()=>(0,o.jsxs)("div",{children:["",(0,o.jsx)("h1",{children:"This is Grocery Component"})]})});
+//# sourceMappingURL=Grocery.494d0e3f.js.map
